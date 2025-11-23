@@ -1,0 +1,20 @@
+{
+    "grow_policy": "depthwise",
+    "max_depth": 4,
+    "max_bin": 128,
+    "learning_rate": 0.006807542126783938,
+    "max_leaves": 171,
+    "min_child_weight": 2.8803643269910313,
+    "subsample": 0.5293099455741657,
+    "colsample_bytree": 0.5275894416747775,
+    "colsample_bylevel": 0.9198507961630028,
+    "colsample_bynode": 0.9413057910082173,
+    "gamma": 0.6316823862950522,
+    "reg_alpha": 49.95634643015541,
+    "reg_lambda": 35.11913756388966,
+    "objective": "reg:squarederror",
+    "eval_metric": "rmse",
+    "tree_method": "hist",
+    "seed": 42,
+    "nthread": 4
+}

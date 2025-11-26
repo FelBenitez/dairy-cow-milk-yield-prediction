@@ -221,13 +221,3 @@ Our final submission is a **CatBoost-based ensemble** with:
 
 - **Internal 5-fold CV RMSE:** ≈ **4.1061**  
 - **Kaggle leaderboard placement:** **4th / 52 teams (~192 students)**  
-
----
-
-## 👥 Authors
-
-- **Felipe Benitez**  
-- **Sankarsh Narayanan**  
-- **Edwin Torres**  
-- **Gora Bepary**
-

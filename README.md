@@ -1,14 +1,14 @@
-# Dairy Cow Milk Yield Prediction 🐄📈
+# Dairy Cow Milk Yield Prediction
 
 Predicting **daily milk yield (liters)** for dairy cows from rich farm, animal, and management data.
 
 This repository contains the full pipeline we used for a **Kaggle-style course competition** – from data cleaning and feature engineering to **CatBoost / XGBoost modeling, Optuna tuning, and ensembling**.
 
-> 🎯 **Result:** Final model achieved **4th place out of 52 teams (~192 students)** on the class Kaggle leaderboard.
+> **Result:** Final model achieved **4th place out of 52 teams (~192 students)** on the class Kaggle leaderboard.
 
 ---
 
-## 🔍 Project Goals
+## Project Goals
 
 - Build a **regression model** to predict `Milk_Yield_L` for each cow-day.
 - Use **interpretable feature engineering** (farm behavior, feed, parity, time).
@@ -22,7 +22,7 @@ This repository contains the full pipeline we used for a **Kaggle-style course c
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 The dataset (provided by course staff) contains daily records for dairy cows, with:
 
@@ -52,7 +52,7 @@ Train/test CSVs live in `data/` and follow the usual Kaggle-style format:
 
 ---
 
-## 🛠 Dependencies
+## Dependencies
 
 Key libraries:
 
@@ -65,7 +65,7 @@ Key libraries:
 
 ---
 
-## 🧠 Modeling Overview
+## Modeling Overview
 
 ### Feature Engineering Highlights
 
@@ -99,7 +99,7 @@ All preprocessing logic is encapsulated in helpers such as:
 
 ---
 
-## 🎯 Hyperparameter Tuning
+## Hyperparameter Tuning
 
 ### CatBoost + Optuna
 
@@ -147,7 +147,7 @@ XGBoost consistently performed **slightly worse** than CatBoost in RMSE, but its
 
 ---
 
-## 🤝 Ensembling & Stacking
+## Ensembling & Stacking
 
 We explored several ensemble strategies:
 
@@ -186,7 +186,7 @@ This snapshot ensemble was computationally expensive (multi-hour training) but c
 
 ---
 
-## ✅ Cross-Validation & Robustness
+## Cross-Validation & Robustness
 
 To ensure we weren’t overfitting to a lucky split, we ran multiple CV checks:
 
@@ -209,7 +209,7 @@ These experiments increased our confidence that improvements were **real, not le
 
 ---
 
-## 🏁 Final Model & Performance
+## Final Model & Performance
 
 Our final submission is a **CatBoost-based ensemble** with:
 
@@ -221,3 +221,4 @@ Our final submission is a **CatBoost-based ensemble** with:
 
 - **Internal 5-fold CV RMSE:** ≈ **4.1061**  
 - **Kaggle leaderboard placement:** **4th / 52 teams (~192 students)**  
+

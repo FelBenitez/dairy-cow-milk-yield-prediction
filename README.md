@@ -62,6 +62,7 @@ Key libraries:
 - `catboost`
 - `xgboost`
 - `optuna`
+- `seaborn`
 
 ---
 

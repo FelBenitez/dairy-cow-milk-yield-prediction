@@ -33,7 +33,6 @@ The dataset (provided by course staff) contains daily records for dairy cows, wi
 ### Animal-level features
 
 - `Cattle_ID`, `Breed`, `Parity`
-- Binary vaccination flags, e.g. `BVD_Vaccine`, `IBR_Vaccine`, etc.
 - `Previous_Week_Avg_Yield`
 
 ### Farm-level / management features
@@ -63,8 +62,6 @@ Key libraries:
 - `catboost`
 - `xgboost`
 - `optuna`
-
-(See `requirements.txt` or notebook imports for the exact versions.)
 
 ---
 
@@ -233,3 +230,4 @@ Our final submission is a **CatBoost-based ensemble** with:
 - **Sankarsh Narayanan**  
 - **Edwin Torres**  
 - **Gora Bepary**
+

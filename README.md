@@ -4,7 +4,7 @@ Predicting **daily milk yield (liters)** for dairy cows from rich farm, animal, 
 
 This repository contains the full pipeline we used for a **Kaggle-style course competition** – from data cleaning and feature engineering to **CatBoost / XGBoost modeling, Optuna tuning, and ensembling**.
 
-> **Result:** Final model achieved **4th place out of 52 teams (~192 students)** on the class Kaggle leaderboard.
+> **Result:** Final model achieved **5th place out of 52 teams (~192 students)** on the class Kaggle leaderboard.
 
 ---
 
@@ -222,4 +222,5 @@ Our final submission is a **CatBoost-based ensemble** with:
 
 - **Internal 5-fold CV RMSE:** ≈ **4.1061**  
 - **Kaggle leaderboard placement:** **4th / 52 teams (~192 students)**  
+
 

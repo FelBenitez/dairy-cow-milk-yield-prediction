@@ -6,7 +6,8 @@ This repository contains the full pipeline we used for a **Kaggle-style course c
 
 > **Result:** Final model achieved **5th place out of 52 teams (~192 students)** on the class Kaggle leaderboard.
 
-![Leaderboard Proof](assets/leaderboard_screenshot.png)
+<img width="600" height="707" alt="leaderboard" src="https://github.com/user-attachments/assets/d33d494d-f1f1-4a2e-928e-e4028fc113d7" />
+
 ---
 
 ## Project Goals
@@ -223,6 +224,7 @@ Our final submission is a **CatBoost-based ensemble** with:
 
 - **Internal 5-fold CV RMSE:** ≈ **4.1061**  
 - **Kaggle leaderboard placement:** **4th / 52 teams (~192 students)**  
+
 
 
 
